@@ -1,3 +1,51 @@
+# Chatbot IT (BUU)
+
+โปรเจกต์แชตบอทสำหรับตอบคำถามด้าน IT ของคณะวิทยาการสารสนเทศ มหาวิทยาลัยบูรพา  
+สร้างด้วย React และใช้ Gemini API (Google AI Studio)
+
+## คุณสมบัติหลัก
+
+- ตอบคำถามเกี่ยวกับคณะ IT เท่านั้น
+- UI สวยงาม ใช้งานง่าย
+- ใช้เทคโนโลยี ReactJS
+
+## วิธีติดตั้งและใช้งาน
+
+1. Clone โปรเจกต์นี้ลงเครื่อง
+```bash
+git clone https://github.com/yourusername/chatbot-it.git
+```
+
+2. เข้าโฟลเดอร์โปรเจกต์
+```bash
+cd chatbot-it
+```
+
+3. ติดตั้ง dependencies
+```bash
+npm install
+```
+
+4. สร้างไฟล์ `.env` ตามตัวอย่างใน `.env.example`  
+แล้วใส่ค่า API key ของคุณ
+
+5. รันโปรเจกต์
+```bash
+npm run dev
+```
+
+## ตัวอย่างไฟล์ `.env.example`
+
+```env
+VITE_API_KEY=your-api-key-here
+VITE_PROJECT_ID=your-project-id
+VITE_MODEL=gems-chat
+```
+
+## การใช้งานบน Production
+
+คุณสามารถ deploy โปรเจกต์นี้บน Vercel หรือ Netlify ได้ง่าย ๆ โดยตั้งค่า Environment Variables บนแพลตฟอร์มเหล่านั้น
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
